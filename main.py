@@ -1,4 +1,7 @@
+words = input("what is your message: ")
+
 def alt_caps(original_string):
+    x = 1
     """Convert a string to Alternating Caps
 
     Args:
@@ -11,8 +14,24 @@ def alt_caps(original_string):
     """
     new_string = ""
 
-    # YOUR CODE HERE
+    i = 0
+
+    for character in words:
+        if x > 0:
+            words.upper
+            character.upper
+            new_string += words[i]
+            i += 1
+            x -= 1
+        else:
+           # words.lower
+            new_string += character
+            i += 1
+            x += 1
+
+    #new_string += words.upper()
 
     return new_string
 
-print(alt_caps("Alternating Capitalization"))
+print(alt_caps(words))
+
